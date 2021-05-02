@@ -92,7 +92,7 @@ int main() {
 }
 
 /*
-input file same as a name input_practice.txt and save the same directory...
+input text file name input_practice.txt and save the same directory...
 11
 4 1 0 1 0 10
 5 1 1 1 1 1 31
