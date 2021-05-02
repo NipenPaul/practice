@@ -38,8 +38,7 @@ int convertBinToDec( NODE *head) {
 	NODE *tem = head;
 	while(tem != NULL)
 	{
-		decimal += tem->bit * pow(2, bitLength-1);
-		bitLength--;
+		decimal += tem->bit * pow(2, --bitLength);
 		tem = tem->next;
 	}
 	return decimal;
